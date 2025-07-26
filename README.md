@@ -24,3 +24,18 @@ Sterling Heights Hospital was facing significant operational inefficiencies that
 - To transform raw healthcare data into actionable insights that improve service delivery and resource allocation.
 
 ## Methodologies Used
+- **Business Understanding:** Defined the project objective to analyze Sterling Heights Hospital’s patient flow, treatment trends, and doctor utilization in order to uncover operational inefficiencies, improve patient satisfaction, and support data-driven healthcare decisions.
+- **Data Collection & Cleaning:** Gathered patient visit records, doctor schedules, treatment logs, and satisfaction scores. Cleaned and transformed data using Microsoft Excel for consistency and accuracy.
+- **Data Understanding:** Explored and reviewed hospital datasets, including patient visit logs, treatment records, admission status, doctor rosters, and satisfaction surveys to understand key operational and service-related variables.
+- **Data Modeling in Power BI:** Established relationships between tables (e.g., patient visits, doctors, treatments) using a star schema. Created a logical data model to support efficient querying and slicing.
+- **DAX Measures & Calculations:** Created custom DAX formulas to calculate KPIs such as patient wait time, doctor availability, visit frequency, and average satisfaction scores.
+- **Dashboard Design & Visualization:** Built an interactive Power BI dashboard with visual elements such as:
+   - Heatmaps (to show peak hours)
+   - Bar and column charts (for category and gender analysis)
+   - Scatter plots (for wait time vs satisfaction)
+   - Line charts (for trends)
+   - Filters and slicers (for easy exploration)
+- **KPI Development:** Defined key performance indicators aligned with hospital goals, such as average wait time, patient satisfaction score, and doctor workload distribution.
+- **Iterative Review & Enhancement:** Refined visuals and measures through feedback loops to ensure clarity, usability, and relevance to hospital management.
+- **Performance Optimization:** Improved report responsiveness by optimizing data size, using calculated columns/measures efficiently, and reducing unnecessary visuals.
+- **Documentation & Knowledge Sharing:** Documented data sources, definitions, and usage guides to support dashboard adoption by non-technical users.
