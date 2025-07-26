@@ -58,9 +58,48 @@ The data model for this project was designed using a star schema to support effi
 - Scatter Plot 
 - Table Visual
 
-## Data Analysis
-### **1. Area Chart – Patient Visit Trends**
-This area chart shows the number of patient visits over time, split by Admitted and Non-Admitted cases. It helps identify fluctuations in patient volume and monitor admission rates over time.
+## Data Analysis and Insight
+## **1. Key Performance Indicators**
+**What it shows:** Key Metrics such as:
+Number of Visits: 1,200, Number of Doctors: 50, Number of Patients: 294, Avgerage Wait Time: 92.0 mins, Admission Rate: 41.25%, Total Profit: $1.48 million, Average Age: 46.70, Doctor to Patient ratio: 0.17, Average Rating: 3.02, and Admission Rate: 41.25% 
 
-### **2. Combination of Matrix, Clustered Column Chart and Stacked Bar Chart – Patient Visit by Day and Time**
+**Insight:**
+   - The average wait time of 92 minutes is relatively high and may be contributing to the moderate satisfaction rating of 3.02, signaling a need to improve service delivery speed.
+
+   - With 294 patients and 50 doctors, the doctor-to-patient ratio of 0.17 suggests a potential overload on staff or underutilization, depending on shift distributions.
+
+   - The admission rate of 41.25% indicates that nearly 6 out of every 10 patients are treated without being admitted, highlighting the hospital’s strong outpatient engagement.
+
+   - A total profit of $1.48 million reflects financial viability, but it must be balanced with patient experience metrics to ensure sustainability.
+
+   - The average patient age of 46.7 years may help prioritize services for middle-aged or chronic care populations.
+
+**Use:** The KPIs help with the following:
+   - Enables hospital leadership to monitor overall performance at a glance and identify critical areas for improvement.
+
+   - Supports operational reviews, budget planning, staffing decisions, and patient service strategy.
+
+   - Helps stakeholders align clinical and financial performance by viewing patient volume, profitability, and satisfaction in a unified dashboard.
+
+   - Useful for setting benchmarks and tracking the impact of process improvements over time.
+
+
+### **2. Area Chart – Patient Visit Trends**
+**What it shows:** Monthly patient visit counts from January to December, split into Admitted and Not Admitted categories.
+
+**Insight:**
+July recorded the highest number of total visits: 122, made up of 78 not admitted and 44 admitted patients. In contrast, January had 94 total visits, with 38 admitted and 56 not admitted. This reflects a 30% increase in total visits from January to July, driven mostly by a rise in non-admitted cases.
+
+**Use:** This chart helps hospital administrators track patient volumes over time, evaluate seasonal trends, and make proactive staffing or resource allocation decisions based on admission patterns.
+
+### **3. Combination of Matrix, Clustered Column Chart and Stacked Bar Chart – Patient Visit by Day and Time**
 This area chart displays high-traffic periods by combining days of the week with visit times. It helps reveal peak hours to inform staffing and scheduling decisions.
+
+### **4. Donut Chart – Patient Visit by Gender**
+**What it shows:** Gender distribution of hospital visits.
+
+**Insight:**
+he majority of hospital visits were made by male patients, accounting for 51.42% of the total, with 617 visits. Female patients represented 48.58%, with 583 visits. While the margin is narrow, it indicates a slight male predominance in hospital utilization during the period.
+
+**Use:** This insight can inform gender-focused healthcare outreach, service planning, and support programs. It may also guide departments like men's health or preventive care initiatives based on utilization patterns.
+
