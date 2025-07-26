@@ -42,3 +42,25 @@ Sterling Heights Hospital was facing significant operational inefficiencies that
 
 ## Data Modeling
 The data model for this project was designed using a star schema to support efficient analysis and reporting in Power BI. A central fact table—containing patient visit records such as visit time, admission status, treatment type, and satisfaction scores—was connected to five dimension tables: Calendar (for time-based trend analysis), Doctor (ID, gender, specialty, and availability), Treatment (procedure categories), Patient Demographics (age group and gender), and Location (representing hospital facilities or departments where services were rendered). Relationships were established using unique identifiers like patient ID, doctor ID, location ID, treatment ID and date. The model was optimized with single-directional relationships, minimized calculated columns, and well-structured DAX measures. This clean, scalable structure enabled dynamic filtering, drill-through capabilities, and real-time insights into operational and service delivery performance across the hospital.
+
+<img width="1920" height="957" alt="Sterling moel shot" src="https://github.com/user-attachments/assets/f172f207-088e-4723-a22f-92d421d24092" />
+
+
+## Visualization
+- KPIs
+- Stacked Column Chart 
+- Visits by Day and Time
+- Matrix 
+- Donut Chart 
+- Visits by Treatment Category
+- Bar Chart 
+- Area Chart 
+- Scatter Plot 
+- Table Visual
+
+## Data Analysis
+### **1. Area Chart – Patient Visit Trends**
+This area chart shows the number of patient visits over time, split by Admitted and Non-Admitted cases. It helps identify fluctuations in patient volume and monitor admission rates over time.
+
+### **2. Combination of Matrix, Clustered Column Chart and Stacked Bar Chart – Patient Visit by Day and Time**
+This area chart displays high-traffic periods by combining days of the week with visit times. It helps reveal peak hours to inform staffing and scheduling decisions.
