@@ -99,7 +99,22 @@ This area chart displays high-traffic periods by combining days of the week with
 **What it shows:** Gender distribution of hospital visits.
 
 **Insight:**
-he majority of hospital visits were made by male patients, accounting for 51.42% of the total, with 617 visits. Female patients represented 48.58%, with 583 visits. While the margin is narrow, it indicates a slight male predominance in hospital utilization during the period.
+The majority of hospital visits were made by male patients, accounting for 51.42% of the total, with 617 visits. Female patients represented 48.58%, with 583 visits. While the margin is narrow, it indicates a slight male predominance in hospital utilization during the period.
 
 **Use:** This insight can inform gender-focused healthcare outreach, service planning, and support programs. It may also guide departments like men's health or preventive care initiatives based on utilization patterns.
 
+### **5. Bar Chart – Patient Visit by Treatment Category**
+**What it shows:** The number of patient visits grouped by treatment type, allowing comparison across different medical service areas.
+
+**Insight:**
+Radiology recorded the highest number of visits (239), followed by Orthopedics (133) and Dermatology (129). On the other end, Pediatrics (113) and Dentistry (109) had the lowest patient volumes, indicating relatively lower demand for these services during the analyzed period.
+
+**Use:** This visualization helps hospital management identify high-demand departments for potential investment or expansion and evaluate underused services for restructuring, promotion, or resource reallocation. It supports data-driven service planning and operational optimization.
+
+### **6. Line Chart – Daily Doctor Trend**
+**What it shows:** The number of doctors on duty per day over a 30-day period, illustrating fluctuations in staff availability.
+
+**Insight:**
+Doctor availability peaked on Day 12 with 34 doctors, but significantly dropped to 18 doctors on Day 22, likely due to holidays, off-duty shifts, or scheduling constraints. This drop could impact patient care quality and waiting times if not proactively managed.
+
+**Use:** This chart is vital for workforce planning, helping management anticipate staffing needs, balance workloads, and prevent service disruptions during low-staff days, especially when aligned with patient volume trends.
