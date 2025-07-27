@@ -182,16 +182,28 @@ This visualization helps the hospital:
 
 **Use:** Allows detailed review, auditing, and data validation. Supports deep dives into patterns or anomalies.
 
+<img width="1176" height="760" alt="patient register shot" src="https://github.com/user-attachments/assets/6a5428eb-d808-4b73-ae75-41c3d7e3567e" />
+
+
 ## Dashboard Review
 
 ### **1. General Overview Dashboard**
 This dashboard provides a high-level summary of the hospital’s operational and clinical performance. It highlights essential KPIs such as total visits, admission rates, wait times, satisfaction scores, and profitability. Visuals include visit trends over time, traffic patterns by day and hour, gender distribution, and visits by treatment category—offering actionable insight into patient flow, departmental demand, and service efficiency.
 
+<img width="1328" height="753" alt="Sterling Hospital dash1" src="https://github.com/user-attachments/assets/164587cb-fb81-461a-8a1f-49246ba05a5c" />
+
+
 ### **2. Doctor Analysis Dashboard**
 Focused on medical personnel, this dashboard visualizes doctor availability, specialty distribution, and gender diversity. It includes a daily trend of doctors on duty, doctor count by specialty, and a gender breakdown, helping management evaluate staffing levels, ensure balanced coverage across departments, and support diversity in hiring. A scatter plot compares patient wait time with satisfaction scores to assess performance at the departmental level.
 
+<img width="1330" height="757" alt="Sterling Hospital dash2" src="https://github.com/user-attachments/assets/376f4ba7-4fcc-4624-b197-7ee38f47aad8" />
+
+
 ### **3. Patient Register Dashboard**
 This dashboard presents a detailed table of patient-level data, capturing key attributes such as patient name, patient ID, wait time, treatment type, treatment typr, and satisfaction score, etc. It serves as a data validation and audit tool, allowing for granular exploration of patient history and enabling root-cause analysis of patterns or anomalies.
+
+<img width="1331" height="757" alt="Sterling Hospital dash3" src="https://github.com/user-attachments/assets/2f39aac0-924c-4b07-8f01-9c9554789de5" />
+
 
 ## Insights and Recommendations
 **1. Reduce Average Wait Time**
