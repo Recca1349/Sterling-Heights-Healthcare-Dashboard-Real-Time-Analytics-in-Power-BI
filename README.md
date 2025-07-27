@@ -4,6 +4,20 @@
 
 **Disclaimer**⚠️: All datasets, slides and reports do not contain real proprietary, confidential, or sensitive information from any company, institution, or individual mention. All info are dummy and design to demonstrate my capabilities of using PowerBI to perform advance analysis on healthcare dataset
 
+## 📑 Table of Contents
+
+1. [Description](#description)  
+2. [Business Introduction](#business-introduction)  
+3. [Problem Statement](#problem-statement)  
+4. [Aim of the Project](#aim-of-the-project)  
+5. [Methodologies Used](#methodologies-used)  
+6. [Data Modeling](#data-modeling)  
+7. [Visualizations](#visualizations)   
+8. [Data Analysis](#data-analysis)  
+9. [Dashboard Reviews](#dashboard-reviews)  
+10. [Insights and Recommendations](#insights-and-recommendations)  
+11. [Thank You](#thank-you)
+
 ## Description
 This is designed and developed comprehensive Power BI dashboard for Sterling Heights Hospital, a mid-sized healthcare facility seeking to improve operational oversight and patient-centered care. The dashboard provides real-time insights into patient visit patterns, treatment categories, doctor availability, and satisfaction metrics. By transforming raw hospital data into actionable visuals, this solution supports informed decision-making, optimizes staff allocation, and enhances visibility into key performance indicators across departments. The project highlights my ability to apply data analytics and visualization techniques to address real-world challenges in the healthcare sector.
 
@@ -46,7 +60,7 @@ The data model for this project was designed using a star schema to support effi
 <img width="1920" height="957" alt="Sterling moel shot" src="https://github.com/user-attachments/assets/f172f207-088e-4723-a22f-92d421d24092" />
 
 
-## Visualization
+## Visualizations
 - KPIs
 - Stacked Column Chart 
 - Visits by Day and Time
@@ -185,7 +199,7 @@ This visualization helps the hospital:
 <img width="1176" height="760" alt="patient register shot" src="https://github.com/user-attachments/assets/6a5428eb-d808-4b73-ae75-41c3d7e3567e" />
 
 
-## Dashboard Review
+## Dashboard Reviews
 
 ### **1. General Overview Dashboard**
 This dashboard provides a high-level summary of the hospital’s operational and clinical performance. It highlights essential KPIs such as total visits, admission rates, wait times, satisfaction scores, and profitability. Visuals include visit trends over time, traffic patterns by day and hour, gender distribution, and visits by treatment category—offering actionable insight into patient flow, departmental demand, and service efficiency.
