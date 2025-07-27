@@ -83,6 +83,11 @@ Number of Visits: 1,200, Number of Doctors: 50, Number of Patients: 294, Avgerag
 
    - Useful for setting benchmarks and tracking the impact of process improvements over time.
 
+<img width="1033" height="132" alt="sterling kpi1 shot" src="https://github.com/user-attachments/assets/15730d60-893b-4c2d-985d-2568e0bd98d9" />
+
+
+<img width="1035" height="128" alt="sterling kpi2 shot" src="https://github.com/user-attachments/assets/e5ea6a44-2f68-4444-af00-3058d02ea20c" />
+
 
 ### **2. Area Chart – Patient Visit Trends**
 **What it shows:** Monthly patient visit counts from January to December, split into Admitted and Not Admitted categories.
@@ -92,8 +97,12 @@ July recorded the highest number of total visits: 122, made up of 78 not admitte
 
 **Use:** This chart helps hospital administrators track patient volumes over time, evaluate seasonal trends, and make proactive staffing or resource allocation decisions based on admission patterns.
 
+<img width="652" height="237" alt="sterling Patient visit shot" src="https://github.com/user-attachments/assets/47176c15-e069-4c88-91cc-8515dbc2d394" />
+
 ### **3. Combination of Matrix, Clustered Column Chart and Stacked Bar Chart – Patient Visit by Day and Time**
 This area chart displays high-traffic periods by combining days of the week with visit times. It helps reveal peak hours to inform staffing and scheduling decisions.
+
+<img width="717" height="307" alt="sterling Patient visit by day shot" src="https://github.com/user-attachments/assets/0466ca79-5edb-4172-80da-2ba6b8bc8994" />
 
 ### **4. Donut Chart – Patient Visit by Gender**
 **What it shows:** Gender distribution of hospital visits.
@@ -103,6 +112,8 @@ The majority of hospital visits were made by male patients, accounting for 51.42
 
 **Use:** This insight can inform gender-focused healthcare outreach, service planning, and support programs. It may also guide departments like men's health or preventive care initiatives based on utilization patterns.
 
+<img width="497" height="238" alt="sterling Patient visit by gender shot" src="https://github.com/user-attachments/assets/dba76c3b-30e7-4110-981d-45e34a609a56" />
+
 ### **5. Bar Chart – Patient Visit by Treatment Category**
 **What it shows:** The number of patient visits grouped by treatment type, allowing comparison across different medical service areas.
 
@@ -110,6 +121,8 @@ The majority of hospital visits were made by male patients, accounting for 51.42
 Radiology recorded the highest number of visits (239), followed by Orthopedics (133) and Dermatology (129). On the other end, Pediatrics (113) and Dentistry (109) had the lowest patient volumes, indicating relatively lower demand for these services during the analyzed period.
 
 **Use:** This visualization helps hospital management identify high-demand departments for potential investment or expansion and evaluate underused services for restructuring, promotion, or resource reallocation. It supports data-driven service planning and operational optimization.
+
+<img width="432" height="306" alt="sterling Patient visit by treat shot" src="https://github.com/user-attachments/assets/6b10b308-46f0-41d4-8aa2-39e4fb1db431" />
 
 ### **6. Line Chart – Daily Doctor Trend**
 **What it shows:** The number of doctors on duty per day over a 30-day period, illustrating fluctuations in staff availability.
