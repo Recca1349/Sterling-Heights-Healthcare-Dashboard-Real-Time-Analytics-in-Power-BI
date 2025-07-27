@@ -58,7 +58,7 @@ The data model for this project was designed using a star schema to support effi
 - Scatter Plot 
 - Table Visual
 
-## Data Analysis and Insight
+## Data Analysis
 ## **1. Key Performance Indicators**
 **What it shows:** Key Metrics such as:
 Number of Visits: 1,200, Number of Doctors: 50, Number of Patients: 294, Avgerage Wait Time: 92.0 mins, Admission Rate: 41.25%, Total Profit: $1.48 million, Average Age: 46.70, Doctor to Patient ratio: 0.17, Average Rating: 3.02, and Admission Rate: 41.25% 
@@ -139,7 +139,7 @@ The medical staff is evenly split, with 25 female doctors (50%) and 25 male doct
 **What it shows:** It illustrates the correlation between average wait time and average patient satisfaction score for each treatment category. Each point represents a treatment, showing how wait duration may influence the patient's experience.
 
 **Insight:**
-The data reveals a weak negative correlation between wait time and satisfaction score — as wait times increase, satisfaction scores tend to decrease, but not consistently or strongly.
+The chart reveals a weak negative correlation between wait time and satisfaction score — as wait times increase, satisfaction scores tend to decrease, but not consistently or strongly.
 
 For instance:
    - X-Ray: 81.04 mins, Satisfaction 2.97
@@ -160,4 +160,70 @@ This visualization helps the hospital:
 
 **Use:** Allows detailed review, auditing, and data validation. Supports deep dives into patterns or anomalies.
 
+## Dashboard Review
 
+### **1. General Overview Dashboard**
+This dashboard provides a high-level summary of the hospital’s operational and clinical performance. It highlights essential KPIs such as total visits, admission rates, wait times, satisfaction scores, and profitability. Visuals include visit trends over time, traffic patterns by day and hour, gender distribution, and visits by treatment category—offering actionable insight into patient flow, departmental demand, and service efficiency.
+
+### **2. Doctor Analysis Dashboard**
+Focused on medical personnel, this dashboard visualizes doctor availability, specialty distribution, and gender diversity. It includes a daily trend of doctors on duty, doctor count by specialty, and a gender breakdown, helping management evaluate staffing levels, ensure balanced coverage across departments, and support diversity in hiring. A scatter plot compares patient wait time with satisfaction scores to assess performance at the departmental level.
+
+### **3. Patient Register Dashboard**
+This dashboard presents a detailed table of patient-level data, capturing key attributes such as patient name, patient ID, wait time, treatment type, treatment typr, and satisfaction score, etc. It serves as a data validation and audit tool, allowing for granular exploration of patient history and enabling root-cause analysis of patterns or anomalies.
+
+## Insights and Recommendations
+**1. Reduce Average Wait Time**
+
+**Insight:** Current average wait time is 92 minutes, contributing to moderate satisfaction (3.02).
+
+**Recommendation:**
+   - Redesign appointment scheduling to reduce bottlenecks during peak hours.
+   - Implement a fast-track system for low-complexity cases.
+   - Explore digital check-ins or queue management tools.
+
+**2. Optimize Doctor Allocation**
+
+**Insight:** Doctor availability fluctuated, dropping to 18 on Day 22.
+
+**Recommendation:**
+  - Create a dynamic scheduling system to ensure sufficient coverage during high-traffic days.
+  - Use patient visit trends to align staffing with demand by department and time.
+
+**3. Improve Patient Satisfaction Beyond Wait Times**
+
+**Insight:** Weak negative correlation between wait time and satisfaction shows other factors also affect patient experience.
+
+**Recommendation:**
+   - Train frontline staff in communication and empathy.
+   - Improve in-visit experience (e.g., updates during wait, more comfortable waiting areas).
+   - Introduce feedback kiosks to capture real-time patient sentiment.
+
+**4. Leverage High-Demand Departments**
+
+**Insight:** Radiology, Orthopedics, and Dermatology had the highest visits.
+
+**Recommendation:**
+   - Invest in expanding services and staff in these high-demand areas.
+   - Bundle popular services with underused ones to balance traffic.
+
+**5. Review and Promote Underutilized Services**
+
+**Insight:** Pediatrics and Dentistry had the lowest visits.
+
+**Recommendation:**
+   - Conduct outreach campaigns targeting families and young adults.
+   - Offer promotional health packages to raise awareness.
+
+**6. Strengthen Outpatient Services**
+
+**Insight:** 59% of visits are non-admitted, highlighting strong outpatient usage.
+
+**Recommendation:**
+   - Expand outpatient clinic hours.
+   - Introduce online consultations or follow-ups to reduce physical congestion.
+
+**7. Enhance Data Quality and Reporting**
+
+**Recommendation:**
+   - Maintain and routinely audit the patient register dashboard.
+   - Use it to trace anomalies, identify repeat visitors, and improve case tracking.
