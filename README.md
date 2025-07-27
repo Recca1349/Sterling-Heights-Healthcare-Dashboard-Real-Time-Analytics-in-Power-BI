@@ -104,17 +104,24 @@ Number of Visits: 1,200, Number of Doctors: 50, Number of Patients: 294, Avgerag
 
 
 ### **2. Area Chart – Patient Visit Trends**
-**What it shows:** Monthly patient visit counts from January to December, split into Admitted and Not Admitted categories.
+**What it shows:** Monthly breakdown of patient visits by admitted and non-admitted categories.
 
 **Insight:**
-July recorded the highest number of total visits: 122, made up of 78 not admitted and 44 admitted patients. In contrast, January had 94 total visits, with 38 admitted and 56 not admitted. This reflects a 30% increase in total visits from January to July, driven mostly by a rise in non-admitted cases.
+- July was the busiest month with 122 visits (78 not admitted, 44 admitted), suggesting mid-year spikes in demand.
+- January had the lowest visits (94), possibly due to seasonal lulls.
 
 **Use:** This chart helps hospital administrators track patient volumes over time, evaluate seasonal trends, and make proactive staffing or resource allocation decisions based on admission patterns.
 
 <img width="652" height="237" alt="sterling Patient visit shot" src="https://github.com/user-attachments/assets/47176c15-e069-4c88-91cc-8515dbc2d394" />
 
-### **3. Combination of Matrix, Clustered Column Chart and Stacked Bar Chart – Patient Visit by Day and Time**
-This area chart displays high-traffic periods by combining days of the week with visit times. It helps reveal peak hours to inform staffing and scheduling decisions.
+### **3. Heatmap Matrix – Patient Visit by Day and Time**
+**What it shows:** Volume of visits distributed by day of the week and 24-hour time slots.
+
+**Insight:**
+- Peak hours on both Friday and Saturday at 13:00, 14:00, 18:00, and 21:00 saw consistently high patient counts.
+- Lighter traffic during late-night and early morning hours (00:00–06:00).
+
+**Use:** Assists in optimizing doctor shifts, front desk staffing, and emergency unit preparedness during peak times.
 
 <img width="717" height="307" alt="sterling Patient visit by day shot" src="https://github.com/user-attachments/assets/0466ca79-5edb-4172-80da-2ba6b8bc8994" />
 
@@ -129,20 +136,20 @@ The majority of hospital visits were made by male patients, accounting for 51.42
 <img width="497" height="238" alt="sterling Patient visit by gender shot" src="https://github.com/user-attachments/assets/dba76c3b-30e7-4110-981d-45e34a609a56" />
 
 ### **5. Bar Chart – Patient Visit by Treatment Category**
-**What it shows:** The number of patient visits grouped by treatment type, allowing comparison across different medical service areas.
+**What it shows:** Number of visits per treatment category.
 
 **Insight:**
 Radiology recorded the highest number of visits (239), followed by Orthopedics (133) and Dermatology (129). On the other end, Pediatrics (113) and Dentistry (109) had the lowest patient volumes, indicating relatively lower demand for these services during the analyzed period.
 
-**Use:** This visualization helps hospital management identify high-demand departments for potential investment or expansion and evaluate underused services for restructuring, promotion, or resource reallocation. It supports data-driven service planning and operational optimization.
+**Use:**  Identifies high-traffic departments for resource scaling and low-demand services for promotional campaigns or review.
 
 <img width="432" height="306" alt="sterling Patient visit by treat shot" src="https://github.com/user-attachments/assets/6b10b308-46f0-41d4-8aa2-39e4fb1db431" />
 
 ### **6. Line Chart – Daily Doctor Trend**
-**What it shows:** The number of doctors on duty per day over a 30-day period, illustrating fluctuations in staff availability.
+**What it shows:** Number of doctors available each day for 30 days.
 
 **Insight:**
-Doctor availability peaked on Day 12 with 34 doctors, but significantly dropped to 18 doctors on Day 22, likely due to holidays, off-duty shifts, or scheduling constraints. This drop could impact patient care quality and waiting times if not proactively managed.
+Highest availability: Day 12 (34 doctors). Lowest: Day 22 (18 doctors), likely due to public holidays or shift constraints.
 
 **Use:** This chart is vital for workforce planning, helping management anticipate staffing needs, balance workloads, and prevent service disruptions during low-staff days, especially when aligned with patient volume trends.
 
@@ -152,9 +159,9 @@ Doctor availability peaked on Day 12 with 34 doctors, but significantly dropped 
 **What it shows:** The distribution of doctors across various departments, highlighting how medical staff are spread among specialties.
 
 **Insight:**
-Dermatology, Orthopedics, and Ophthalmology have the highest number of doctors, suggesting they are better staffed to meet demand. In contrast, Dentistry and Surgery have the fewest doctors, which may indicate under-resourcing or less demand in those departments.
+Dermatology, Ophthalmology, and Orthopedics have the most doctors (8 each). Dentistry (1) and Surgery (3) are least staffed.
 
-**Use:** This chart supports strategic hiring decisions and helps hospital administrators ensure balanced capacity across departments, avoiding both understaffing and redundancy in specialty areas.
+**Use:** Supports workforce planning, highlights over- and under-resourced departments.
 
 <img width="717" height="305" alt="sterling doc spec shot" src="https://github.com/user-attachments/assets/def6cd49-9f59-4e85-acdb-e0f966e57ea2" />
 
@@ -165,21 +172,20 @@ Dermatology, Orthopedics, and Ophthalmology have the highest number of doctors, 
 **Insight:**
 The medical staff is evenly split, with 25 female doctors (50%) and 25 male doctors (50%). This indicates gender parity in staffing at the hospital—a strong indicator of equitable hiring practices.
 
-**Use:** This chart promotes awareness of diversity and inclusion in the workforce. It supports ongoing efforts to maintain balance across roles and departments, which can positively impact patient trust, team dynamics, and organizational culture.
+**Use:** Promotes organizational equity and inclusive hiring practices.
 
 <img width="501" height="237" alt="sterling doc gender shot" src="https://github.com/user-attachments/assets/9b66d290-61d7-4232-8978-820e65349e60" />
 
 ### **9. Scatter Plot – Avg. Wait Time vs. Avg. Satisfaction by Treatment**
-**What it shows:** It illustrates the correlation between average wait time and average patient satisfaction score for each treatment category. Each point represents a treatment, showing how wait duration may influence the patient's experience.
+**What it shows:** Correlation between average wait times and satisfaction scores across treatments.
 
 **Insight:**
-The chart reveals a weak negative correlation between wait time and satisfaction score — as wait times increase, satisfaction scores tend to decrease, but not consistently or strongly.
+The chart reveals a weak negative correlation: Longer waits tend to lower satisfaction, but not significantly.
 
-For instance:
-   - X-Ray: 81.04 mins, Satisfaction 2.97
-   - MRI Scan: 84.90 mins, Satisfaction 2.84
-   - General Checkup: 88.34 mins, Satisfaction 2.92
-   - Dental Cleaning: 89.54 mins, Satisfaction 3.08
+Examples:
+   - X-Ray: 81.04 mins (2.97 satisfaction)
+   - MRI Scan: 84.90 mins (2.84 satisfaction)
+   - Dental Cleaning: 89.54 mins (3.08 satisfaction)
 
 These values suggest that while longer waits may be associated with slightly lower satisfaction, the correlation is not strong — indicating that other factors (such as staff attitude, clarity of communication, or treatment quality) also significantly impact satisfaction.
 
@@ -192,9 +198,16 @@ This visualization helps the hospital:
 <img width="435" height="307" alt="sterling wait time shot" src="https://github.com/user-attachments/assets/19c5b189-099e-4613-b855-c3d04f32ad11" />
 
 ### **10. Table – Patient Visit Register**
-**What it shows:** Detailed records of each visit: Patient ID, Year, Time, Admission Status, Treatment, Location, etc.
+**What it shows:** Raw visit data with fields like:
+   - Patient ID, Name, Age, Gender
+   - Visit Date and Time
+   - Admission Status
+   - Treatment Type
+   - Satisfaction Score
+   - Wait Time
 
-**Use:** Allows detailed review, auditing, and data validation. Supports deep dives into patterns or anomalies.
+**Use:** Facilitates detailed auditing, quality assurance, repeat patient tracking, and regulatory reporting.
+
 
 <img width="1176" height="760" alt="patient register shot" src="https://github.com/user-attachments/assets/6a5428eb-d808-4b73-ae75-41c3d7e3567e" />
 
