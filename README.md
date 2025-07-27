@@ -132,6 +132,8 @@ Doctor availability peaked on Day 12 with 34 doctors, but significantly dropped 
 
 **Use:** This chart is vital for workforce planning, helping management anticipate staffing needs, balance workloads, and prevent service disruptions during low-staff days, especially when aligned with patient volume trends.
 
+<img width="652" height="241" alt="sterling doc trend shot" src="https://github.com/user-attachments/assets/9ca9f357-4e63-4823-80d2-3cd4b461e600" />
+
 ### **7. Bar Chart – Doctors by Specialty**
 **What it shows:** The distribution of doctors across various departments, highlighting how medical staff are spread among specialties.
 
@@ -140,6 +142,9 @@ Dermatology, Orthopedics, and Ophthalmology have the highest number of doctors, 
 
 **Use:** This chart supports strategic hiring decisions and helps hospital administrators ensure balanced capacity across departments, avoiding both understaffing and redundancy in specialty areas.
 
+<img width="717" height="305" alt="sterling doc spec shot" src="https://github.com/user-attachments/assets/def6cd49-9f59-4e85-acdb-e0f966e57ea2" />
+
+
 ### **8. Donut Chart – Doctors by Gender**
 **What it shows:** The gender distribution of doctors across the hospital, giving a high-level view of staff diversity.
 
@@ -147,6 +152,8 @@ Dermatology, Orthopedics, and Ophthalmology have the highest number of doctors, 
 The medical staff is evenly split, with 25 female doctors (50%) and 25 male doctors (50%). This indicates gender parity in staffing at the hospital—a strong indicator of equitable hiring practices.
 
 **Use:** This chart promotes awareness of diversity and inclusion in the workforce. It supports ongoing efforts to maintain balance across roles and departments, which can positively impact patient trust, team dynamics, and organizational culture.
+
+<img width="501" height="237" alt="sterling doc gender shot" src="https://github.com/user-attachments/assets/9b66d290-61d7-4232-8978-820e65349e60" />
 
 ### **9. Scatter Plot – Avg. Wait Time vs. Avg. Satisfaction by Treatment**
 **What it shows:** It illustrates the correlation between average wait time and average patient satisfaction score for each treatment category. Each point represents a treatment, showing how wait duration may influence the patient's experience.
@@ -167,6 +174,8 @@ This visualization helps the hospital:
    - Identify departments with both high wait times and low satisfaction for targeted workflow optimization.
    - Understand that reducing wait time alone may not fully improve satisfaction.
    - Prioritize patient experience initiatives in areas where satisfaction is lagging despite efficient wait times.
+
+<img width="435" height="307" alt="sterling wait time shot" src="https://github.com/user-attachments/assets/19c5b189-099e-4613-b855-c3d04f32ad11" />
 
 ### **10. Table – Patient Visit Register**
 **What it shows:** Detailed records of each visit: Patient ID, Year, Time, Admission Status, Treatment, Location, etc.
