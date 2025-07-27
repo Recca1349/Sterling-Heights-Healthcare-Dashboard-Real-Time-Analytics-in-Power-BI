@@ -261,3 +261,7 @@ This dashboard presents a detailed table of patient-level data, capturing key at
 **Recommendation:**
    - Maintain and routinely audit the patient register dashboard.
    - Use it to trace anomalies, identify repeat visitors, and improve case tracking.
+
+## Thank You
+For more information, you can contact me 
+<img width="1010" height="251" alt="Contact shot" src="https://github.com/user-attachments/assets/2011c60f-f813-4a08-90ff-512e1ec7ac75" />
