@@ -118,3 +118,46 @@ Radiology recorded the highest number of visits (239), followed by Orthopedics (
 Doctor availability peaked on Day 12 with 34 doctors, but significantly dropped to 18 doctors on Day 22, likely due to holidays, off-duty shifts, or scheduling constraints. This drop could impact patient care quality and waiting times if not proactively managed.
 
 **Use:** This chart is vital for workforce planning, helping management anticipate staffing needs, balance workloads, and prevent service disruptions during low-staff days, especially when aligned with patient volume trends.
+
+### **7. Bar Chart – Doctors by Specialty**
+**What it shows:** The distribution of doctors across various departments, highlighting how medical staff are spread among specialties.
+
+**Insight:**
+Dermatology, Orthopedics, and Ophthalmology have the highest number of doctors, suggesting they are better staffed to meet demand. In contrast, Dentistry and Surgery have the fewest doctors, which may indicate under-resourcing or less demand in those departments.
+
+**Use:** This chart supports strategic hiring decisions and helps hospital administrators ensure balanced capacity across departments, avoiding both understaffing and redundancy in specialty areas.
+
+### **8. Donut Chart – Doctors by Gender**
+**What it shows:** The gender distribution of doctors across the hospital, giving a high-level view of staff diversity.
+
+**Insight:**
+The medical staff is evenly split, with 25 female doctors (50%) and 25 male doctors (50%). This indicates gender parity in staffing at the hospital—a strong indicator of equitable hiring practices.
+
+**Use:** This chart promotes awareness of diversity and inclusion in the workforce. It supports ongoing efforts to maintain balance across roles and departments, which can positively impact patient trust, team dynamics, and organizational culture.
+
+### **9. Scatter Plot – Avg. Wait Time vs. Avg. Satisfaction by Treatment**
+**What it shows:** It illustrates the correlation between average wait time and average patient satisfaction score for each treatment category. Each point represents a treatment, showing how wait duration may influence the patient's experience.
+
+**Insight:**
+The data reveals a weak negative correlation between wait time and satisfaction score — as wait times increase, satisfaction scores tend to decrease, but not consistently or strongly.
+
+For instance:
+   - X-Ray: 81.04 mins, Satisfaction 2.97
+   - MRI Scan: 84.90 mins, Satisfaction 2.84
+   - General Checkup: 88.34 mins, Satisfaction 2.92
+   - Dental Cleaning: 89.54 mins, Satisfaction 3.08
+
+These values suggest that while longer waits may be associated with slightly lower satisfaction, the correlation is not strong — indicating that other factors (such as staff attitude, clarity of communication, or treatment quality) also significantly impact satisfaction.
+
+**Use:** 
+This visualization helps the hospital:
+   - Identify departments with both high wait times and low satisfaction for targeted workflow optimization.
+   - Understand that reducing wait time alone may not fully improve satisfaction.
+   - Prioritize patient experience initiatives in areas where satisfaction is lagging despite efficient wait times.
+
+### **10. Table – Patient Visit Register**
+**What it shows:** Detailed records of each visit: Patient ID, Year, Time, Admission Status, Treatment, Location, etc.
+
+**Use:** Allows detailed review, auditing, and data validation. Supports deep dives into patterns or anomalies.
+
+
